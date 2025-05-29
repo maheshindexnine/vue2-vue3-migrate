@@ -1,0 +1,142 @@
+/* Global styles */
+:root {
+  /* Colors */
+  --light-grey: #f2f2f2;
+  --grey: #ccc;
+  --dark-grey: #666;
+  --graphite: #20252d;
+  --orange-accent: #ff5722;
+  --main-blue: #0099cc;
+  --light-blue: #33b5e5;
+  --dark-blue: #005580;
+}
+
+/* Base styles */
+body {
+  font-family: 'Noto Serif KR', sans-serif;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility classes */
+.fancy-font {
+  font-family: 'Noto Serif KR', sans-serif;
+}
+
+.text-primary {
+  color: #0099cc;
+}
+
+.text-large {
+  font-size: 1.2em;
+}
+
+.font-weight-bolder {
+  font-weight: 500;
+}
+
+/* Background colors */
+.main-blue {
+  background-color: #0099cc;
+}
+
+.light-blue {
+  background-color: #33b5e5;
+}
+
+.orange-accent {
+  background-color: #ff5722;
+}
+
+/* Button styles */
+.button-reset {
+  background: transparent;
+  padding: 0;
+  border: 0;
+  color: unset;
+  cursor: pointer;
+}
+
+.button-accent {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.button-accent:hover {
+  background-color: #e64a19;
+  cursor: pointer;
+}
+
+.btn-lg {
+  font-size: 1.3em;
+}
+
+/* Icon styles */
+.md-icon.icon-sm {
+  font-size: 16px !important;
+  justify-content: left;
+}
+
+/* Text colors */
+.dark-muted-color {
+  color: #666;
+}
+
+/* Transition styles */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Notification styles */
+.notifications {
+  padding: 20px;
+  margin: 80px 10px 5px;
+  font-size: 14px;
+  color: #ffffff;
+  background: #44a4fc;
+  border-left: 5px solid #187fe7;
+}
+
+.notifications.warn {
+  background: #ffb648;
+  border-left-color: #f48a06;
+}
+
+.notifications.error {
+  background: #e54d42;
+  border-left-color: #b82e24;
+}
+
+.notifications.success {
+  background: #68cd86;
+  border-left-color: #42a85f;
+}
+
+/* Media Queries */
+@media (max-width: 575.99px) {
+  /* Extra small devices */
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /* Small devices */
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* Medium devices */
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* Large devices */
+}
+
+@media (min-width: 1200px) {
+  /* Extra large devices */
+}
