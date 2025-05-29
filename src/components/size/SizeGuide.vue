@@ -87,12 +87,12 @@ import { sizeGuideMen, sizeGuideWomen, sizeGuideChildren } from '@/services/size
 
 <style scoped>
 .table {
-  border: 1px solid #0099CC
+  border: 1px solid #0099cc;
   td,
   th {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
-    border: 1px solid #0099CC
+    border: 1px solid #0099cc;
     font-weight: 400;
   }
   th {
@@ -103,12 +103,12 @@ tbody {
   tr {
     &:last-child {
       th {
-        border-bottom-color: #0099CC
+        border-bottom-color: #0099cc;
       }
     }
     &:last-child {
       td {
-        background-color: #666
+        background-color: #666;
         color: #fff;
       }
     }

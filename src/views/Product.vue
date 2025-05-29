@@ -81,10 +81,10 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue'
-import Rating from '@/components/Rating.vue'
+import Rating from '@/components/ProductRating.vue'
 import SizeVariations from '@/components/size/SizeVariations.vue'
-import Carousel from '@/components/Carousel.vue'
-import Breadcrumbs from '@/components/Breadcrumbs.vue'
+import Carousel from '@/components/ProductCarousel.vue'
+import Breadcrumbs from '@/components/NavigationBreadcrumbs.vue'
 import ProductDetails from '@/components/product/ProductDetails.vue'
 import Offer from '@/components/Offer.vue'
 import Collection from '@/components/Collection.vue'
